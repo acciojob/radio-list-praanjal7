@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Radio List</title>
+  <style>
+    /* Apply red color to even positioned radio buttons using class */
+    .input {
+      color: red;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Radio Button List -->
+  <form>
+    <!-- Option 1 -->
+    <label>
+      <input type="radio" name="option" value="1">
+      Option 1
+    </label><br>
 
+    <!-- Option 2: Disabled and red -->
+    <label class="input">
+      <input type="radio" name="option" value="2" disabled>
+      Option 2
+    </label><br>
+
+    <!-- Option 3: Default selected -->
+    <label>
+      <input type="radio" name="option" value="3" checked>
+      Option 3
+    </label><br>
+
+    <!-- Option 4: Red -->
+    <label class="input">
+      <input type="radio" name="option" value="4">
+      Option 4
+    </label><br>
+
+    <!-- Option 5 -->
+    <label>
+      <input type="radio" name="option" value="5">
+      Option 5
+    </label><br>
+
+    <!-- Option 6: Red -->
+    <label class="input">
+      <input type="radio" name="option" value="6">
+      Option 6
+    </label><br>
+  </form>
 </body>
-
 </html>
